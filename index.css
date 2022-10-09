@@ -1,0 +1,34 @@
+header{
+    color: white;
+    background-color: #186ca3;
+    width: 100%;
+    height: 50px;
+    padding: 20px 0 0 10px;
+    position: absolute;
+    font-size: larger;
+}
+
+
+.page{
+padding-top: 70px;
+display: flex;
+}
+
+.menu{
+    width: 20%;
+    background-color: grey;
+    padding: 80px;
+    color: white;
+    height: 100vh;
+}
+
+.container{
+    width: 80%;
+    padding: 10px 10px 10px 10px;
+}
+
+#add-brd-btn{
+    background-color: green;
+    color: white;
+    height: 45px
+}
