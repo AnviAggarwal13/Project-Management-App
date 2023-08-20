@@ -8,6 +8,21 @@ header{
     font-size: larger;
 }
 
+#toggleMenu{
+    cursor: pointer;
+    
+}
+#menuToggle{
+    display: none;
+    transition: 4s;
+}
+
+input{
+    padding: 1%;
+    border: 1px solid;
+    width:80%;
+    margin: 0 0 0 20px;
+}
 
 .page{
 padding-top: 70px;
@@ -30,5 +45,33 @@ display: flex;
 #add-brd-btn{
     background-color: green;
     color: white;
-    height: 45px
+    height: 39px;
 }
+
+.project-block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.project-card{
+    background-color: grey;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    width: 30%;
+    margin: 20px 20px;
+}
+
+.input-board{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+ }
+ 
+ .board-block{
+margin-top: 3%;
+display: none;
+ }

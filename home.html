@@ -9,14 +9,22 @@
 </head>
 <body>
     <header> 
-        <span>&#9776;</span>   
+        <span id="toggleMenu">&#9776;</span>   
         Project Management App
     </header>
     <div class="page">
-        <div class="menu">Menu</div>
+        <div class="menu" id="menuToggle">
+            <ul id="menuList">
+
+            </ul>
+        </div>
         <div class="container">
-            <input style="width: 90%; height: 40px" type="text" placeholder="e.g., new test board">
-            <button id="add-brd-btn">Add Board</button>
+            <input type="text" id="newBoardText" value="">
+            <button id="add-brd-btn" onclick="addBoard(newBoardText)">Add Board</button>
+           <div id="boardblockList">
+            <section class="board-block">
+            </section>
+           </div> 
         </div>
     </div>
 </body>
